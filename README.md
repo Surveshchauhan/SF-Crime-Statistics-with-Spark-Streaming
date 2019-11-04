@@ -31,7 +31,6 @@ export PATH=$JAVA_HOME/bin:$SPARK_HOME/bin:$SCALA_HOME/bin:$PATH
 
 ## Project Setup
 - install pykafka for producer_server.py `conda install -c conda-forge pykafka` or `pip install kafka-python`
-- cd kafka
 
 ### Run the following in sequence to ensure the code works fine
 - bin/zookeeper-server-start.sh config/zookeeper.properties
