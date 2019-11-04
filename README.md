@@ -37,8 +37,7 @@ export PATH=$JAVA_HOME/bin:$SPARK_HOME/bin:$SCALA_HOME/bin:$PATH
 - bin/kafka-server-start.sh config/server.properties
 - python producer_server.py
 - bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic sfcalls --from-beginning
-- spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.0 --master local[4] data_stream.py
-Next we need to run the `producer_server.py`. 
+- spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.0 --master local[4] data_stream.py 
 
 We also need to write a consumer file to consume the data produced by the producer
 
