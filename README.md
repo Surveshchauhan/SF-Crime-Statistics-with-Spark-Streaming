@@ -42,5 +42,5 @@ export PATH=$JAVA_HOME/bin:$SPARK_HOME/bin:$SCALA_HOME/bin:$PATH
 We also need to write a consumer file to consume the data produced by the producer
 
 ![Consumer](consumer.png)
-![batch1](batch_file.png)
+![batch1](batch_file1.png)
 
